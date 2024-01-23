@@ -49,3 +49,9 @@ svg.color4 circle {
 .collapse-plus>.collapse-title:after {
     top:1.7rem;
 }
+
+@media screen and (max-width:430px) {
+    .slider-container{
+        height:550px !important;
+    }
+}
