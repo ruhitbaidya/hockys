@@ -1,3 +1,6 @@
+.font-text {
+    font-family: "Manrope", sans-serif;
+  }
 
 svg.radial-progress {
     height: auto;
@@ -20,7 +23,7 @@ svg.radial-progress circle.complete {
 }
 svg.radial-progress text {
     fill: #131318;
-    font: 400 1em/1 'Oswald', sans-serif;
+    font: 400 1em/1 "Manrope", sans-serif;
     text-anchor: middle;
 }
 
@@ -41,4 +44,8 @@ svg.color3 circle {
 /* Quaternary */
 svg.color4 circle {
     stroke: #4C8DF1;
+}
+
+.collapse-plus>.collapse-title:after {
+    top:1.7rem;
 }
