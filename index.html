@@ -727,28 +727,108 @@
             </div>
             <div class="w-[60%]">
               <form action="">
-                <div class="form-container">
-                  <div>
-                    <div>
-                      <label for="" class="block font-[700] text-[20px]">
+                <div class="flex-col gap-[24px]">
+                  <div class="flex gap-[24px] mb-[24px]">
+                    <div class="flex-1">
+                      <label for="" class="mb-[16px] block font-[700] text-[20px]">
                         Your Name
                       </label>
-                      <input type="text" class="bg-[#13131808] p-[20px] text-[16px] font-[400] rounded-lg" placeholder="Enter your full name">
+                      <input type="text" class="bg-[#13131808] w-full p-[20px] text-[16px] font-[400] rounded-lg focus:outline-none" placeholder="Enter your full name">
                     </div>
-                    <div></div>
+                    <div class="flex-1">
+                        <label for="" class="mb-[16px] block font-[700] text-[20px]">
+                            Your Email
+                          </label>
+                          <input type="text" class="bg-[#13131808] w-full p-[20px] text-[16px] font-[400] rounded-lg focus:outline-none" placeholder="Enter your Email">
+                    </div>
                   </div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
+                  <div class="flex gap-[24px] mb-[24px]">
+                    <div class="flex-1">
+                        <label for="" class="mb-[16px] block font-[700] text-[20px]">
+                            Subject
+                          </label>
+                          <input type="text" class="bg-[#13131808] w-full p-[20px] text-[16px] font-[400] rounded-lg focus:outline-none" placeholder="Enter Your Subject">
+                    </div>
+                    <div class="flex-1">
+                        <label for="" class="mb-[16px] block font-[700] text-[20px]">
+                            Phone Number
+                          </label>
+                          <input type="text" class="bg-[#13131808] w-full p-[20px] text-[16px] font-[400] rounded-lg focus:outline-none" placeholder="Enter Your Phone Number">
+                    </div>
+                  </div>
+                  <div class="mb-[24px]">
+                      <label for="" class="mb-[16px] block font-[700] text-[20px]">
+                          Message
+                        </label>
+                        <textarea  cols="30" rows="10" class="bg-[#13131808] w-full p-[20px] text-[16px] font-[400] rounded-lg focus:outline-none" value="" placeholder="Enter Your Message"></textarea>
+                        <input type="text" >
+                  </div>
+                  <div>
+                    <button class="px-[24px] py-[15px] bg-[#FF4240] w-full text-[#fff] rounded-lg">Send Message</button>
+                  </div>
                 </div>
               </form>
             </div>
           </div>
+          <!-- social media section start  -->
+          <div class="my-[100px] py-[35px] text-center bg-[#13131808] rounded-lg">
+              <h2 class="text-[24px] font-[800] mb-[24px]">Social Media</h2>
+              <div class="text-[20px] space-x-5">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+              </div>
+          </div>
+          <!-- social media section end  -->
         </div>
       </section>
       <!-- end get in touch  -->
+
     </main>
     <!-- main section end -->
-    <footer></footer>
+    <footer class="bg-[#131318] py-[100px] text-[#FFFFFF]">
+      <div class="container mx-auto px-[10] lg:px-[20px] my-[100px]">
+        <div class="flex gap-[30px]">
+          <div class="w-[40%]">
+            <h4 class="text-[28px] font-[800] mb-[20px]">Get In Touch</h4>
+            <p class="text-[#FFFFFF99] mb-[18px]"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, voluptatum? </p>
+            <p class="text-[#FFFFFF99] mb-[16px]"><i class="fa-regular fa-envelope text-[#FF4240] mr-[16px]"></i> hockeys@support.com</p>
+            <p class="text-[#FFFFFF99]"><i class="fa-solid fa-phone text-[#FF4240] mr-[16px]"></i> (+62) 123-321-543</p>
+          </div>
+          <div class="w-[40%] grid grid-cols-2">
+              <div class="">
+                <h4 class="text-[18px] font-[700] mb-[20px]">Company</h4> 
+                <ul class="text-[#FFFFFF99] space-y-5">
+                  <li><a href="">About us</a></li>
+                  <li><a href="">Leadership</a></li>
+                  <li><a href="">Careers</a></li>
+                  <li><a href="">News & Article</a></li>
+                  <li><a href="">Legal Notice</a></li>
+                </ul>
+              </div>
+              <div class="">
+                <h4 class="text-[18px] font-[700] mb-[20px]">Support</h4>
+                <ul class="text-[#FFFFFF99] space-y-5">
+                  <li><a href=""> Help Center</a></li>
+                  <li><a href=""> FAQ</a></li>
+                  <li><a href=""> Ticket Support</a></li>
+                  <li><a href="">  Contact Us</a></li>
+                </ul>
+              </div>
+          </div>
+          <div class="w-[20%]">
+            <h4 class="text-[18px] font-[700] mb-[20px]">Services</h4> 
+            <ul class="text-[#FFFFFF99] space-y-5">
+              <li><a href="">Academy</a></li>
+              <li><a href="">Group Lesson</a></li>
+              <li><a href="">Private Lesson</a></li>
+              <li><a href=""> Hockeys for kids</a></li>
+              <li><a href="">Hockeys for Adult</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
