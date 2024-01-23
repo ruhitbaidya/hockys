@@ -22,7 +22,7 @@ $(function(){
                 // Get stroke-dashoffset value based on the percentage of the circumference
                 strokeDashOffset = circumference - ((percent * circumference) / 100);
                 // Transition progress for 1.25 seconds
-                $(this).find($('circle.complete')).animate({'stroke-dashoffset': strokeDashOffset}, 1250);
+                $(this).find($('circle.complete')).animate({'stroke-dashoffset': strokeDashOffset}, 1280);
             }
         });
     }).trigger('scroll');
