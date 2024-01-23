@@ -52,6 +52,21 @@ svg.color4 circle {
 
 @media screen and (max-width:430px) {
     .slider-container{
-        height:550px !important;
+        height:500px !important;
+    }
+}
+@media screen and (min-width:431px) and (max-width:501px) {
+    .slider-container{
+        height:500px !important;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .slider-container{
+        height:580px !important;
+    }
+}
+@media screen and (max-width:364px) {
+    .slider-container{
+        height:540px !important;
     }
 }
