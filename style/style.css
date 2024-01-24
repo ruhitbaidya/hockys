@@ -1,3 +1,9 @@
+html{
+    scroll-padding-top:150px;
+}
+.content-program{
+    background-color: rgba(19, 19, 24, 0.50);
+}
 .font-text {
     font-family: "Manrope", sans-serif;
   }
@@ -50,23 +56,32 @@ svg.color4 circle {
     top:1.7rem;
 }
 
-@media screen and (max-width:430px) {
+/* @media screen and (max-width:445px) {
     .slider-container{
         height:500px !important;
     }
-}
+    html{
+        scroll-padding-top:0px;
+    }
+} */
 @media screen and (min-width:431px) and (max-width:501px) {
     .slider-container{
-        height:500px !important;
+        height:510px !important;
+    }
+}
+@media screen and (min-width:501px) and (max-width:767px) {
+    .slider-container{
+        height:510px !important;
     }
 }
 @media screen and (min-width:768px) and (max-width:1024px) {
     .slider-container{
-        height:580px !important;
+        height:630px !important;
     }
 }
-@media screen and (max-width:364px) {
+@media screen and (max-width:445px) {
     .slider-container{
-        height:540px !important;
+        height:510px !important;
     }
+    
 }
